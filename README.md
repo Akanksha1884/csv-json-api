@@ -35,7 +35,7 @@ cp .env.example .env      # macOS/Linux
 
 
 Update .env with your PostgreSQL credentials:
-
+```bash
 PORT=5000
 CSV_PATH=./data/users.csv
 DATABASE_URL=postgresql://postgres:YourPassword@localhost:5432/kelpdb
@@ -46,15 +46,16 @@ Replace username, password, host, and port if different.
 5. Ensure PostgreSQL is running
 
 Create the database kelpdb if it doesn’t exist:
-
+```bash
 CREATE DATABASE kelpdb;
 
 
 Confirm connection with:
-
+```bash
 node test-db.js
 
 6. Start the application
+```bash
 npm start
 
 
@@ -83,6 +84,7 @@ Health Check:
 http://localhost:5000/health
 
 Project Structure
+```bash
 csv-json-api/
 │
 ├── src/
