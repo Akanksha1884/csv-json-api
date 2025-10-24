@@ -50,14 +50,14 @@ This Node.js application reads a CSV file, converts each row into a JSON object,
       CREATE DATABASE kelpdb;
 
 
-      Confirm connection with:
-        ```bash
-        node test-db.js
+  Confirm connection with:
+       
+      node test-db.js
+
 
 6. Start the application
-  ```bash
-  npm start
-
+    ```
+   npm start
 
   The API will run on http://localhost:5000
 
@@ -79,7 +79,7 @@ This Node.js application reads a CSV file, converts each row into a JSON object,
       http://localhost:5000/health
 
 Project Structure
-    ```bash
+  ```
       csv-json-api/
       │
       ├── src/
